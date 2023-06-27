@@ -67,6 +67,22 @@ h3 {
   color: white;
 }
 
+.launch-app {
+  margin: 20px;
+  border-radius: 25px;
+  border: 2px solid rgb(181, 137, 168);
+  padding: 15px;
+  background: var(--accent-color);
+  box-shadow: var(--box-shadow-glow);
+  text-decoration: none;
+  color: white;
+}
+
+.launch-app:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 p {
   background: var(--accent-color);
   padding: 20px;
