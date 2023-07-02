@@ -1,7 +1,7 @@
 :root {
   --primary-color: rgb(203, 118, 220);
   --secondary-color: rgb(215, 182, 228);
-  --accent-color: rgb(118, 118, 118);
+  --accent-color: rgb(95, 95, 95);
   --box-shadow-glow: 0px 0px 7px 7px rgb(173, 173, 173);
   --box-shadow-glow-hover: 0px 0px 10px 10px rgb(173, 173, 173);
 }
@@ -9,8 +9,8 @@
 body {
   margin: 60px auto;
   max-width: 800px;
-  padding-top: 50px;
-  background: rgb(33, 33, 33);
+  padding-top: 90px;
+  background: rgb(25, 25, 25);
   color: rgb(180, 180, 180);
 }
 
@@ -24,10 +24,12 @@ h3 {
 
 h1 {
   font-size: 90px;
+  font-family: "Inconsolata", monospace;
 }
 
 h2 {
   font-size: 48px;
+  font-family: "Inconsolata", monospace;
 }
 
 h3 {
@@ -40,6 +42,7 @@ h3 {
   display: flex;
   margin-top: 30px;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .navigation-links a {
@@ -72,6 +75,8 @@ h3 {
 }
 
 .launch-app {
+  display: block;
+  text-align: center;
   margin: 20px;
   border-radius: 25px;
   padding: 15px;
@@ -79,9 +84,28 @@ h3 {
   box-shadow: var(--box-shadow-glow);
   text-decoration: none;
   color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .launch-app:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.about-me-app {
+  display: block;
+  text-align: center;
+  margin: 20px;
+  border-radius: 25px;
+  padding: 15px;
+  background: var(--accent-color);
+  box-shadow: var(--box-shadow-glow);
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-me-app:hover {
   text-decoration: underline;
   color: white;
 }
@@ -97,10 +121,11 @@ p {
 }
 
 .homepage-link {
-  color: rgb(90, 138, 183);
+  color: rgb(209, 209, 209);
   text-align: center;
   display: block;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
 .homepage-link:hover {
