@@ -2,8 +2,8 @@
   --primary-color: rgb(203, 118, 220);
   --secondary-color: rgb(215, 182, 228);
   --accent-color: rgb(118, 118, 118);
-  --box-shadow-glow: 0px 0px 7px 7px rgb(202, 202, 202);
-  --box-shadow-glow-hover: 0px 0px 10px 10px rgb(202, 202, 202);
+  --box-shadow-glow: 0px 0px 7px 7px rgb(173, 173, 173);
+  --box-shadow-glow-hover: 0px 0px 10px 10px rgb(173, 173, 173);
 }
 
 body {
@@ -74,7 +74,6 @@ h3 {
 .launch-app {
   margin: 20px;
   border-radius: 25px;
-
   padding: 15px;
   background: var(--accent-color);
   box-shadow: var(--box-shadow-glow);
@@ -139,7 +138,7 @@ p {
 
 footer {
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
   padding-top: 50px;
 }
 
@@ -156,17 +155,70 @@ footer {
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   h3 {
     font-size: 20px;
+    padding-top: 20px;
   }
-  p {
-    font-size: 15px;
+
+  .navigation-links {
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+  }
+
+  .navigation-links a {
+    margin: 20px;
+    border-radius: 100px;
+    padding: 15px;
+    background: var(--accent-color);
+    box-shadow: var(--box-shadow-glow);
+  }
+
+  .about-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .about-link:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  .contact-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .contact-link:hover {
+    text-decoration: underline;
+    color: white;
   }
 
   .launch-app {
     display: block;
+    margin: 20px;
+    border-radius: 100px;
+    padding: 15px;
+    background: var(--accent-color);
+    box-shadow: var(--box-shadow-glow);
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+  }
+
+  .launch-app:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  footer {
+    padding-top: 200px;
   }
 }
