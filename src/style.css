@@ -172,6 +172,12 @@ footer {
   padding-top: 50px;
 }
 
+#bottom-text {
+  font-size: 10px;
+  padding-top: 60px;
+  color: rgb(57, 57, 57);
+}
+
 .contact-icons a {
   margin: 0 20px;
   color: white;
