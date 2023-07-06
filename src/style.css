@@ -2,7 +2,7 @@
   --primary-color: rgb(203, 118, 220);
   --secondary-color: rgb(215, 182, 228);
   --accent-color: rgb(95, 95, 95);
-  --box-shadow-glow: 0px 0px 7px 7px rgb(173, 173, 173);
+  --box-shadow-glow: 0px 0px 10px 10px rgb(173, 173, 173);
   --box-shadow-glow-hover: 0px 0px 10px 10px rgb(173, 173, 173);
 }
 
@@ -48,30 +48,36 @@ h3 {
 .navigation-links a {
   margin: 20px;
   border-radius: 25px;
-
   padding: 15px;
   background: var(--accent-color);
-  box-shadow: var(--box-shadow-glow);
 }
 
 .about-link {
-  text-decoration: none;
+  margin: 0 20px;
   color: white;
+  padding: 10px 14px;
+  background: var(--accent-color);
+  border-radius: 40px;
+  text-decoration: none;
+  transition: all 120ms ease-in-out;
 }
 
 .about-link:hover {
-  text-decoration: underline;
-  color: white;
+  box-shadow: var(--box-shadow-glow);
 }
 
 .contact-link {
-  text-decoration: none;
+  margin: 0 20px;
   color: white;
+  padding: 10px 14px;
+  background: var(--accent-color);
+  border-radius: 40px;
+  text-decoration: none;
+  transition: all 120ms ease-in-out;
 }
 
 .contact-link:hover {
-  text-decoration: underline;
-  color: white;
+  box-shadow: var(--box-shadow-glow);
 }
 
 .launch-app {
@@ -99,15 +105,14 @@ h3 {
   border-radius: 25px;
   padding: 15px;
   background: var(--accent-color);
-  box-shadow: var(--box-shadow-glow);
   text-decoration: none;
   color: white;
   font-family: "Poppins", sans-serif;
+  transition: all 120ms ease-in-out;
 }
 
 .about-me-app:hover {
-  text-decoration: underline;
-  color: white;
+  box-shadow: var(--box-shadow-glow);
 }
 
 p {
@@ -167,11 +172,33 @@ footer {
   padding-top: 50px;
 }
 
+.contact-icons a {
+  margin: 0 20px;
+  color: white;
+  padding: 10px 14px;
+  background: var(--accent-color);
+  border-radius: 40px;
+  font-size: 20px;
+  transition: all 120ms ease-in-out;
+}
+
+.contact-icons a:hover {
+  box-shadow: var(--box-shadow-glow);
+}
+
 .jag {
-  max-width: 330px;
+  max-width: 300px;
   border-radius: 40px;
   border: 1px solid rgb(175, 175, 175);
   box-shadow: var(--box-shadow-glow);
+}
+
+.jag {
+  transition: all 250ms ease-in-out;
+}
+.jag:hover {
+  filter: contrast(90%);
+  transform: scale(1.02);
 }
 
 @media (max-width: 415px) {
