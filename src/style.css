@@ -178,6 +178,16 @@ footer {
   color: rgb(57, 57, 57);
 }
 
+#bottom-text a {
+  color: rgb(88, 88, 88);
+  text-decoration: none;
+}
+
+#bottom-text a:hover {
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
+}
+
 .contact-icons a {
   margin: 0 20px;
   color: white;
