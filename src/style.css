@@ -167,6 +167,13 @@ footer {
   padding-top: 50px;
 }
 
+.jag {
+  max-width: 330px;
+  border-radius: 40px;
+  border: 1px solid rgb(175, 175, 175);
+  box-shadow: var(--box-shadow-glow);
+}
+
 @media (max-width: 415px) {
   body,
   img,
