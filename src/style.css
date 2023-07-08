@@ -217,6 +217,11 @@ footer {
   transform: scale(1.02);
 }
 
+#project-photo {
+  border-radius: 100%;
+  border: solid 5px rgb(112, 112, 112);
+}
+
 @media (max-width: 415px) {
   body,
   img,
