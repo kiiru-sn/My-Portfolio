@@ -123,6 +123,7 @@ p {
   line-height: 1.5;
   color: black;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .homepage-link {
@@ -205,6 +206,7 @@ footer {
 .jag {
   max-width: 300px;
   border-radius: 35px;
+  border: solid 3px var(--accent-color);
 }
 
 .jag-p {
@@ -215,6 +217,10 @@ footer {
   line-height: 1.5;
   color: black;
   text-align: left;
+}
+
+.word-highlight {
+  color: rgb(146, 146, 146);
 }
 
 #project-photo {
