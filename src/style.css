@@ -213,8 +213,8 @@ footer {
   background: var(--accent-color);
   padding: 15px;
   border-radius: 35px;
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 13px;
+  line-height: 1.75;
   color: black;
   text-align: left;
 }
