@@ -204,7 +204,7 @@ footer {
 }
 
 .jag {
-  max-width: 300px;
+  max-width: 275px;
   border-radius: 35px;
   border: solid 3px var(--accent-color);
 }
@@ -238,7 +238,6 @@ footer {
 
 @media (max-width: 415px) {
   body,
-  img,
   col-6 {
     padding-top: 25px;
     text-align: center;
@@ -255,6 +254,10 @@ footer {
   h3 {
     font-size: 20px;
     padding-top: 20px;
+  }
+
+  .container {
+    display: flex;
   }
 
   .navigation-links {
@@ -310,18 +313,17 @@ footer {
 
   p {
     font-size: 15px;
+    text-align: center;
+  }
+
+  .jag-p {
+    font-size: 12px;
+    display: block;
+    margin: 15px;
+    padding: 15px;
   }
 
   footer {
     padding-top: 200px;
-  }
-
-  .jag {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
-    border-radius: 35px;
   }
 }
