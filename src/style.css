@@ -256,10 +256,6 @@ footer {
     padding-top: 20px;
   }
 
-  .container {
-    display: flex;
-  }
-
   .navigation-links {
     display: flex;
     margin-top: 5px;
@@ -323,7 +319,23 @@ footer {
     padding: 15px;
   }
 
+  #skills-container {
+    font-size: 10px;
+  }
+
+  #skills-icon {
+    font-size: 20px;
+  }
+
+  .project-p {
+    font-size: 10px;
+  }
+
+  .about-me-app {
+    font-size: 12px;
+  }
+
   footer {
-    padding-top: 200px;
+    padding-top: 25px;
   }
 }
