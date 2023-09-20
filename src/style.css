@@ -59,7 +59,7 @@ h3 {
   background: var(--accent-color);
   border-radius: 40px;
   text-decoration: none;
-  transition: all 120ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 
 .about-link:hover {
@@ -73,7 +73,7 @@ h3 {
   background: var(--accent-color);
   border-radius: 40px;
   text-decoration: none;
-  transition: all 120ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 
 .contact-link:hover {
@@ -108,7 +108,7 @@ h3 {
   text-decoration: none;
   color: white;
   font-family: "Poppins", sans-serif;
-  transition: all 120ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 .about-me-app:hover {
@@ -180,7 +180,7 @@ footer {
   background: var(--accent-color);
   border-radius: 40px;
   font-size: 15px;
-  transition: all 120ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 .contact-icons a:hover {
@@ -207,6 +207,11 @@ footer {
   max-width: 325px;
   border-radius: 35px;
   border: solid 3px var(--accent-color);
+}
+
+.jag:hover {
+  filter: grayscale(100%);
+  transition: all 300ms ease-in-out;
 }
 
 .jag-p {
